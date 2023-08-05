@@ -1,3 +1,47 @@
+/* barra navegacion*/
+.navbar{
+    padding:2rem;
+    background-color: #f5f6f7;
+
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+
+}
+/*estilos generales*/
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 h1{
-    color: blue;
+    font-size:2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/*seccion hero*/
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align:center;
+}
+
+.hero-imagen-desarrollo{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+    font-family: 'Tourney', cursive;
+}
+/*adaptable, nos quita el icono en pantallas peque;as*/
+@media screen and(max-width:767px) {
+    .nav-brand{
+        display:none;
+    }
 }
