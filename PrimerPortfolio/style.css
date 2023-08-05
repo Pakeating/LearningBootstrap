@@ -129,6 +129,10 @@ h1{
     padding-top:60px;
     margin-bottom:40px;
 }
+.proyectos-contenedor .row {
+    
+    margin-bottom:20px;
+}
 .overlay{
     transition:all 0.2s ease;
     opacity:0;
